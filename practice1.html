@@ -1,51 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page</title>
-     <!-- <link rel="stylesheet" href="practice1.css">  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    <script src="practice1.js"></script>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h2>Registration form</h2>
-        </div>
-        <form  class="form" id="form">
-            <div class="form-control ">
-                <label>Username</label>
-                <input type="text" placeholder="Priyanka19" id="username">
-                <i class="fa fa-check-circle fa-2x"></i>
-                <i class="fa fa-exclamation-circle fa-2x"></i>
-                <small>Error message</small>
-            </div>
-            <div class="form-control ">
-                <label>Email</label>
-                <input type="email" placeholder="priyanka@gmail.com" id="email">
-                <i class="fa fa-check-circle fa-2x"></i>
-                <i class="fa fa-exclamation-circle fa-2x"></i>
-                <small>Error message</small>
-            </div>
-            <div class="form-control ">
-                <label>Password</label>
-                <input type="password" placeholder="Password" id="password">
-                <i class="fa fa-check-circle fa-2x"></i>
-                <i class="fa fa-exclamation-circle fa-2x"></i>
-                <small>Error message</small>
-            </div>
-            <div class="form-control">
-                <label>Confirm Password</label>
-                <input type="password" placeholder="Confirm Password" id="password_check">
-                <i class="fa fa-check-circle fa-2x"></i>
-                <i class="fa fa-exclamation-circle fa-2x"></i>
-                <small>Error message</small>
-            </div>
-            <button>Submit</button>
-        </form>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Registration Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+
+  <link rel="stylesheet" href="form.css" />
+  <body>
+    <form action="#">
+      <center>
+
+        <table class="container">
+          <tr>
+            <td colspan="2"><h1>Registration Form</h1></td>
+          </tr>
+          <tr>
+            
+            <td><label for="first name">First Name</label></td>
+            <td><input type="text" placeholder="First Name" id="fName" /></td>
+            <!-- <span id="inputaccepted">Accepted</span> -->
+            
+  <tr>
+    <td></td>
+    <td><div id="firstNametag"></div></td>
+  </tr>
+</tr>
+
+
+<tr>
+          
+  <td><label for="last name">Last Name</label></td>
+  <td><input type="text" placeholder="Last Name" id="lName" /></td>
+</tr>
+<tr>
+  
+  <td></td>
+  <td>  <div id="lasttNametag"></div></td>
+</tr>
+
+<tr>
+  
+  <td><label for="phone number">Contact No.</label></td>
+  <td><input
+    type="text"
+    label="firstname"
+    placeholder="xxxxxxxxxx"
+    id="phone"
+  /></td>
+</tr>
+  <tr>
+    <td></td>
+    <td><div id="mobileTag"></div></td>
+  </tr>
+  
+  
+  <tr>
     
+    <td><label for="email">Email</label></td>
+    <td><input
+      type="text"
+      label="firstname"
+          placeholder="Enter your email address"
+          id="mail"
+          />
+          </td>
+          
+        </tr>
+        <tr>
+          <td></td>
+          <td><div id="emailNametag"></div></td>      
+          
+        </tr>
+        
+        <tr>
+          
+          <td><label for="password">Password</label></td>
+          <td><input type="text" placeholder="***" id="formpass" /></td>
+          
+        </tr>
+        <tr>
+          <td></td>
+          <td><div id="passwordtag"></div></td>
+        </tr>
+        
+        <tr>
+          
+  <td><label for="confirm password">Confirm Password</label></td>
+  <td><input type="password" placeholder="***" id="confirmpass" /></td>
+  
+</tr>
+
+<tr>
+  <td></td>
+  <td><div id="confirmpasswordtag"></div></td>
+</tr>
+
+<tr>
+  
+  <th colspan="2"><button type="submit">Submit</button></th>
+</tr>
+</table>
+</center>
+</form>
 </body>
+
+  <script src="practice1.js"></script>
 </html>
